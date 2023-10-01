@@ -1,0 +1,66 @@
+@import '../../app/variables.scss';
+
+@mixin btn {
+  padding: 1rem 0.8rem;
+  border-radius: 3px;
+  margin: 5px 0;
+  transition: 0.3s all ease-in-out;
+  font-size: 14px;
+
+  @media (min-width: 640px) {
+    font-size: 16px;
+  }
+
+}
+
+.btnBleu {
+  @include btn;
+  border: 1px solid $bleuClair;
+  background-color: $bleuClair;
+  width: fit-content;
+  color: beige;
+
+  &:hover {
+    color: $bleuClair;
+    border: 1px solid beige;
+    background-color: beige;
+
+    a {
+      color: $bleuClair;
+    }
+  }
+}
+
+.btnBleuTransp {
+  @include btn;
+  border: 1px solid $bleuFonce;
+  background-color: rgba($color: $bleuClair, $alpha: 0.2);
+  color: $bleuClair;
+  width: fit-content;
+
+  a {
+    color: $bleuClair;
+  }
+
+  &:hover {
+    background-color: $bleuClair;
+    color: white;
+    width: fit-content;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+.btnRouge {
+  @include btn;
+  border: 1px solid $orangeFonce;
+  background-color: $orangeClair;
+  color: white;
+  width: fit-content;
+
+  a {
+    color: white;
+  }
+}

@@ -1,0 +1,96 @@
+@import '../../app/variables.scss';
+
+.footer {
+  @include container;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+
+  a.lienMenu:hover::after {
+    bottom: -3px;
+  }
+
+  .colFooter {
+    text-align: center;
+    width: 33%;
+    min-width: 260px;
+    padding: 0 30px;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+
+      li {
+        list-style: none;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .madeInFrance {
+    margin-top: 2rem;
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .drapeau {
+    margin: 0 auto;
+    display: block;
+    height: 5px;
+    background-color: white;
+    width: 5rem;
+    content: " ";
+    position: relative;
+
+    &::before {
+      display: block;
+      height: 5px;
+      background-color: darkblue;
+      width: 5rem;
+      content: " ";
+      position: absolute;
+      left: -5rem;
+    }
+
+    &::after {
+      display: block;
+      height: 5px;
+      background-color: red;
+      width: 5rem;
+      content: " ";
+      position: absolute;
+      right: -5rem;
+    }
+  }
+
+  .social {
+    ul {
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      li {
+        list-style: none;
+        margin: 0.6rem;
+        gap: 30px;
+
+        .imgContainer {
+          width: 32px;
+          height: 32px;
+          position: relative;
+
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+
+  }
+}

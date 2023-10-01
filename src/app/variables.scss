@@ -1,0 +1,17 @@
+// COULEURS
+$bleuClair : #1D5F6B;
+$bleuMedium : #18515C;
+$bleuFonce : #11373F;
+$orangeClair: #F7645D;
+$orangeMedium: #EC5052;
+$orangeFonce: #BD3E43;
+
+// TAILLES
+$headerHeight : 150px;
+
+// Mixins
+@mixin container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
