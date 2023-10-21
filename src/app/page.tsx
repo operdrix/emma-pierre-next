@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
 import React from 'react'
-import Link from 'next/link'
 import Herobanner from '@/components/herobanner/Herobanner'
 import TodayProducts from '@/components/todayProducts/TodayProducts'
 import Button from '@/components/button/Button'
@@ -9,9 +8,6 @@ import BlogPostsGallery from '@/components/blogPostsGallery/BlogPostsGallery'
 
 export default function Home() {
 
-  const btnClick = () => {
-    console.log('click')
-  }
   return (
     <>
       <Herobanner />
@@ -47,7 +43,7 @@ export default function Home() {
           </div>
         </article>
 
-        <BlogPostsGallery title='Nos derniers articles de blog' nbProducts={3} />
+        <BlogPostsGallery title='Nos derniers articles de blog' nbPosts={3} />
 
       </main>
     </>
