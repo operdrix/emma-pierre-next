@@ -2,7 +2,6 @@ import React, { FC } from 'react'
 import styles from './blogPost.module.scss'
 import Button from '@/components/button/Button'
 import Image from 'next/image'
-import { log } from 'console'
 import Link from 'next/link'
 
 type BlogPostProps = {

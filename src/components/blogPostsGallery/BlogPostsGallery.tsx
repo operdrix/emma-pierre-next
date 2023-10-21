@@ -27,7 +27,7 @@ const BlogPostsGallery: FC<BlogPostsGalleryProps> = ({ title, nbPosts = 4 }) => 
           src='/img/products/AtelierBague.jpg'
           alt='Création de Bijoux'
           title='Des bijoux uniques'
-          content="Des bijoux uniques pour une touche personnelle et originale à votre style. Portez quelque chose de spécial et de différent qui reflète votre personnalité et votre goût distinctif. [...]"
+          content="Des bijoux uniques pour une touche personnelle et originale à votre style. Portez quelque chose de spécial et de différent qui reflète votre personnalité et votre goût distinctif."
           href='#'
           index={1}
           date='12/05/2021'
