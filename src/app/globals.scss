@@ -40,8 +40,9 @@ a {
 @for $i from 1 through 6 {
   h#{$i} {
     font-family: Jost, sans-serif;
-    font-size: list.nth(48px 40px 20px 16px 14px 12px, $i);
+    font-size: list.nth(48px 40px 25px 16px 14px 12px, $i);
     font-weight: list.nth(400 400 300 300 300 300, $i);
     color: $bleuClair;
+    line-height: list.nth(72px 60px 30px 24px 21px 18px, $i);
   }
 }

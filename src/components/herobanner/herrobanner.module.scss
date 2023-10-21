@@ -1,0 +1,83 @@
+@import '../../app/variables.scss';
+
+.heroBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+  }
+
+  .cardCat {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .5s, border-radius .5s, filter .5s;
+
+    @media (min-width: 640px) {
+      width: 25%;
+      min-height: 777px;
+      height: 100%;
+    }
+
+    &:hover {
+      z-index: 1;
+      //cursor: pointer;
+      transform: scale(1.05);
+      filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.25));
+      border-radius: 20px;
+    }
+
+    .title {
+      margin-top: inherit;
+      margin-bottom: 30px;
+      font-size: 40px;
+      font-weight: 400;
+      color: $bleuClair;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+      line-height: 50px;
+
+      @media (min-width: 640px) {
+        height: 90px;
+        margin-top: 8rem;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+
+    @mixin cardBackground($image) {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url($image);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &:nth-child(1) {
+      @include cardBackground("/img/products/DiamantBrut.jpeg");
+    }
+
+    &:nth-child(2) {
+      @include cardBackground("/img/products/BouclesFondOrange.jpeg");
+
+    }
+
+    &:nth-child(3) {
+      @include cardBackground("/img/products/BouclesFondBleu.jpeg");
+    }
+
+    &:nth-child(4) {
+      @include cardBackground("/img/products/BouclesFondRose.jpeg");
+    }
+  }
+}

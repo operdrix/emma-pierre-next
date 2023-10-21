@@ -1,0 +1,58 @@
+@import '../../app/variables.scss';
+
+.todayProducts {
+  margin-bottom: 8rem;
+
+  @media (min-width: 640px) {
+    margin-bottom: 10rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+
+    @media (min-width: 640px) {
+      margin-bottom: 0;
+    }
+  }
+
+  .productsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-direction: column;
+
+    @media (min-width: 640px) {
+      flex-direction: row;
+    }
+
+    a {
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+
+  .productsCards {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 2.3rem;
+    align-items: center;
+    flex-direction: column;
+    transition: transform .5s;
+
+    @media (min-width: 640px) {
+      align-items: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+      column-gap: 0;
+      justify-content: space-between;
+    }
+
+
+
+    .infos {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

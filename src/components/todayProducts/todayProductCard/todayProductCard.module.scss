@@ -1,0 +1,28 @@
+@import '../../../app/variables.scss';
+
+@mixin card($height, $maxWidht) {
+  width: 100%;
+
+  @media (min-width: 640px) {
+    width: auto;
+  }
+
+  img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+
+    @media (min-width: 640px) {
+      height: $height;
+      max-width: $maxWidht;
+    }
+  }
+}
+
+.bigCard {
+  @include card(550px, 420px);
+}
+
+.smallCard {
+  @include card(350px, 290px);
+}

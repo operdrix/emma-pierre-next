@@ -7,6 +7,15 @@ type ButtonProps = {
   color: 'bleu' | 'bleu-transp' | 'rouge'
   children: ReactNode
 }
+/**
+ * Button
+ * @description Composant pour afficher un bouton
+ * @param {string} href - Lien vers lequel rediriger l'utilisateur
+ * @param {string} color - Couleur du bouton
+ * @param {ReactNode} children - Contenu du bouton
+ * @returns {JSX.Element} - Élément JSX
+ * 
+ */
 const Button: FC<ButtonProps> = ({ href, color, children }) => {
 
   const getColor = () => {

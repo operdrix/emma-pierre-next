@@ -1,165 +1,97 @@
 @import './variables.scss';
 
 .mainPage {
-  #heroBanner {
+
+  @include container;
+
+  .texteIntro {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+
+  .propos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 
     @media (min-width: 640px) {
       flex-direction: row;
+      margin-bottom: 10rem;
     }
 
-    .cardCat {
+    .imagePropos {
+      position: relative;
+      height: 400px;
       width: 100%;
-      height: 300px;
-      text-align: center;
-      min-height: inherit;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      transition: transform .5s;
+      margin-bottom: 0.5rem;
 
       @media (min-width: 640px) {
-        width: 25%;
-        min-height: 777px;
-        height: 100%;
+        height: 500px;
+        aspect-ratio: 1/1;
+        margin-bottom: 0.5rem;
       }
 
-      &:hover {
-        cursor: pointer;
-        transform: scale(1.05);
-        filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.25));
-        border-radius: 20px;
+      img {
+        object-fit: cover;
       }
 
-      .title {
-        margin-top: inherit;
-        margin-bottom: 30px;
-        font-size: 40px;
-        font-weight: 400;
-        color: $bleuClair;
-        text-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-
-        @media (min-width: 640px) {
-          margin-top: 8rem;
-        }
-      }
-
-      @mixin cardBackground($image) {
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url($image);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-
-      &:nth-child(1) {
-        @include cardBackground("/img/products/DiamantBrut.jpeg");
-      }
-
-      &:nth-child(2) {
-        @include cardBackground("/img/products/BouclesFondOrange.jpeg");
-
-      }
-
-      &:nth-child(3) {
-        @include cardBackground("/img/products/BouclesFondBleu.jpeg");
-      }
-
-      &:nth-child(4) {
-        @include cardBackground("/img/products/BouclesFondRose.jpeg");
-      }
-    }
-  }
-
-  .container {
-    @include container;
-
-    .texteIntro {
-      text-align: center;
-      max-width: 800px;
-      margin: auto;
-      margin-bottom: 5rem;
     }
 
-    .products {
-      margin-bottom: 8rem;
+    .contenuPropos {
+      padding: 0;
 
       @media (min-width: 640px) {
-        margin-bottom: 10rem;
+        padding-left: 6rem;
       }
 
-      h2 {
-        margin-bottom: 1rem;
-
-        @media (min-width: 640px) {
-          margin-bottom: 0;
-        }
-      }
-
-      .productsHeader {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      p {
         margin-bottom: 2rem;
-        flex-direction: column;
 
-        @media (min-width: 640px) {
-          flex-direction: row;
-        }
-
-        a {
-          font-weight: 500;
-          font-size: 18px;
+        &:last-of-type {
+          margin-bottom: 2.5rem;
         }
       }
 
-      .productsCards {
-        display: flex;
-        align-items: flex-start;
-        column-gap: 2.3rem;
-        align-items: center;
-        flex-direction: column;
-        transition: transform .5s;
 
-        @media (min-width: 640px) {
-          align-items: flex-start;
-          flex-direction: row;
-          flex-wrap: wrap;
-          column-gap: 0;
-          justify-content: space-between;
-        }
+    }
 
-        .bigCard {
-          img {
-            height: 350px;
-            max-width: 290px;
 
-            @media (min-width: 640px) {
-              height: 550px;
-              max-width: 420px;
-            }
-          }
-        }
+  }
 
-        .smallCard {
-          img {
-            height: 350px;
-            max-width: 290px;
-          }
-        }
+  .banniereDevis {
 
-        .infos {
-          display: flex;
-          justify-content: space-between;
-        }
+    background-image: linear-gradient(to right, rgba(29, 95, 107, 0.5), rgba(247, 100, 93, 0.5)), url("/img/products/QuartzBrut.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 6rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+
+    @media (min-width: 640px) {
+      margin-bottom: 8rem;
+      flex-direction: row;
+      padding: 5rem 6rem;
+      align-items: center;
+    }
+
+    h2 {
+      color: white;
+      margin-bottom: 1.5rem;
+
+      @media (min-width: 640px) {
+        margin-bottom: 0;
       }
     }
+
+
   }
+
 }
