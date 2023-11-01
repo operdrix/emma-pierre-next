@@ -5,6 +5,7 @@ import Herobanner from '@/components/herobanner/Herobanner'
 import TodayProducts from '@/components/todayProducts/TodayProducts'
 import Button from '@/components/button/Button'
 import BlogPostsGallery from '@/components/blogPostsGallery/BlogPostsGallery'
+import FeedInstagram from '@/components/feedInstagram/FeedInstagram'
 
 export default function Home() {
 
@@ -17,7 +18,9 @@ export default function Home() {
           <p>Bienvenue sur le site EMMA PIERRE, où l'art et la passion se rencontrent pour créer des pièces exceptionnelles qui transcendent le temps. Nous sommes ravis de vous présenter notre collection exquise de bijoux haut de gamme, minutieusement conçue avec les meilleurs matériaux et une attention particulière aux détails. Nous sommes convaincus que vous trouverez la pièce parfaite qui vous permettra de vous démarquer et de rayonner en toute occasion.</p>
         </article>
 
-        <TodayProducts />
+        <div className={styles.container}>
+          <TodayProducts />
+        </div>
 
         <article className={styles.propos}>
           <div className={styles.imagePropos}>
@@ -43,9 +46,11 @@ export default function Home() {
           </div>
         </article>
 
-        <BlogPostsGallery title='Nos derniers articles de blog' nbPosts={3} />
-
+        <div className={styles.container}>
+          <BlogPostsGallery title='Nos derniers articles de blog' nbPosts={3} />
+        </div>
       </main>
+      <FeedInstagram />
     </>
   )
 }

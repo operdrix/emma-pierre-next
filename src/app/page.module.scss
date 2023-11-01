@@ -2,16 +2,22 @@
 
 .mainPage {
 
-  @include container;
+
 
   .texteIntro {
+    @include container;
     text-align: center;
     max-width: 800px;
     margin: auto;
     margin-bottom: 5rem;
   }
 
+  .container {
+    @include container;
+  }
+
   .propos {
+    @include container;
     display: flex;
     flex-direction: column;
     align-items: center;
