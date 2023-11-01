@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <div className={styles.logoContainer}>
-          <Link href="/">
-            <Image className={styles.logo} src="/img/EP-logo-DEF-carre.png" fill alt='Logo' />
-          </Link>
-        </div>
+        <Link href="/">
+          <div className={styles.logoContainer}>
+            <Image className={styles.logo} src="/img/EP-logo-DEF-carre.png" fill={true} sizes="30vw" alt='Logo' />
+          </div>
+        </Link>
         <div className={styles.navbarMenu}>
           <div className={styles.navbarLiens}>
             <Link className={styles.lienMenu} href="/products">

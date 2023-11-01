@@ -20,11 +20,10 @@
     height: 100px;
     position: relative;
 
-    a {
-      .logo {
-        object-fit: contain;
-      }
+    .logo {
+      object-fit: contain;
     }
+
   }
 
   .navbarMenu {
