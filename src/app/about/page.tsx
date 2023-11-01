@@ -53,7 +53,7 @@ const About = () => {
             </p>
           </div>
           <div className={styles.imgContainer}>
-            <Image src="/img/products/177249994_135493948551491_4508321744509230673_n.jpg" alt="image de collier" fill={true} />
+            <Image src="/img/products/177249994_135493948551491_4508321744509230673_n.jpg" alt="image de collier" fill={true} sizes='30vw' />
           </div>
         </article>
 
@@ -75,7 +75,7 @@ const About = () => {
             </p>
           </div>
           <div className={styles.imgContainer}>
-            <Image src="/img/atelier.jpeg" alt="image diamant sous une loupe" fill={true} />
+            <Image src="/img/atelier.jpeg" alt="image diamant sous une loupe" fill={true} sizes='30vw' />
           </div>
         </article>
         <aside className={styles.citation}>
@@ -94,7 +94,7 @@ const About = () => {
             </p>
           </div>
           <div className={styles.imgContainer}>
-            <Image src="/img/satisfaction.jpeg" alt="image de collier dans la main" fill={true} />
+            <Image src="/img/satisfaction.jpeg" alt="image de collier dans la main" fill={true} sizes='30vw' />
           </div>
         </article>
       </main>

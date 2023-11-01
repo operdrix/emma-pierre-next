@@ -24,7 +24,7 @@ export default function Home() {
 
         <article className={styles.propos}>
           <div className={styles.imagePropos}>
-            <Image fill={true} src="/img/atelier.jpeg" alt="Création de Bijoux" />
+            <Image fill={true} sizes='30vw' src="/img/atelier.jpeg" alt="Création de Bijoux" />
           </div>
           <div className={styles.contenuPropos}>
             <h2>Qui sommes-nous ?</h2>

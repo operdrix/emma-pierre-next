@@ -11,7 +11,7 @@ const FeedInstagram = () => {
       </div>
       <div className={styles.img_insta}>
         <div className={styles.imgContainer}>
-          <Image src="/img/products/CollierBlancFeuilles.jpg" alt="Création de Bijoux" fill={true} />
+          <Image src="/img/products/CollierBlancFeuilles.jpg" alt="Création de Bijoux" fill={true} sizes='30vw' />
         </div>
         <Button
           color='rouge'
@@ -22,7 +22,7 @@ const FeedInstagram = () => {
       </div>
       <div className={styles.img_insta}>
         <div className={styles.imgContainer}>
-          <Image src="/img/products/BouquetRose.jpg" alt="Création de Bijoux" fill={true} />
+          <Image src="/img/products/BouquetRose.jpg" alt="Création de Bijoux" fill={true} sizes='30vw' />
         </div>
         <Button
           color='rouge'
@@ -33,7 +33,7 @@ const FeedInstagram = () => {
       </div>
       <div className={styles.img_insta}>
         <div className={styles.imgContainer}>
-          <Image src="/img/products/MultiplesRoses.jpg" alt="Création de Bijoux" fill={true} />
+          <Image src="/img/products/MultiplesRoses.jpg" alt="Création de Bijoux" fill={true} sizes='30vw' />
         </div>
         <Button
           color='rouge'
@@ -44,7 +44,7 @@ const FeedInstagram = () => {
       </div>
       <div className={styles.img_insta}>
         <div className={styles.imgContainer}>
-          <Image src="/img/products/CollierPerleSable.jpg" alt="Création de Bijoux" fill={true} />
+          <Image src="/img/products/CollierPerleSable.jpg" alt="Création de Bijoux" fill={true} sizes='30vw' />
         </div>
         <Button
           color='rouge'

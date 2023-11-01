@@ -22,7 +22,7 @@ const BlogPost: FC<BlogPostProps> = ({ src, alt, href, index, title, content, da
     <figure className={`${styles.article} ${articleStyle}`}>
 
       <div className={styles.imgContainer}>
-        <Image src={src} alt={alt} fill={true} />
+        <Image src={src} alt={alt} fill={true} sizes='30vw' />
         <Button color="bleu" href={href}>Lire l'article</Button>
       </div>
       <div className={styles.text}>
