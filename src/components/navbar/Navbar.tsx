@@ -31,22 +31,30 @@ const Navbar = () => {
           </div>
           <div className={styles.navbarIcons}>
             <Link className={styles.searchContainer} href='/search'>
-              <img id="search-loupe" src="img/search-2903.svg" />
+              <div className={styles.imgcontainer}>
+                <Image id="search-loupe" src="/img/search-2903.svg" fill={true} sizes='30vw' alt='loupe' />
+              </div>
               <form action="#">
                 <input id="search" type="search" />
               </form>
             </Link>
             <Link href="/cart" className={styles.cartIcon}>
-              <img src="img/bags-1999.svg" />
+              <div className={styles.imgcontainer}>
+                <Image src="/img/bags-1999.svg" alt='cart' fill={true} sizes='30vw' />
+              </div>
               <span>1</span>
             </Link>
             <Link href="" onClick={() => {
               console.log("user");
             }}>
-              <img src="img/circle-user.svg" />
+              <div className={styles.imgcontainer}>
+                <Image src="/img/circle-user.svg" alt='user' fill={true} sizes='30vw' />
+              </div>
             </Link>
             <a>
-              <img src="img/france.png" />
+              <div className={styles.imgcontainer}>
+                <Image src="/img/france.png" alt='pays' fill={true} sizes='30vw' />
+              </div>
             </a>
 
           </div>

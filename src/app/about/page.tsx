@@ -25,7 +25,7 @@ const About = () => {
             partir de pierres
             précieuses, semi-précieuses et autres pierres uniques. Nous sommes fiers
             de proposer une
-            sélection exquise de bijoux faits à la main qui captivent l'œil et ravissent l'âme.
+            sélection exquise de bijoux faits à la main qui captivent l&apos;œil et ravissent l&apos;âme.
           </p>
         </article>
         <article className={`${styles.texteImage} ${styles.droite}`}>
@@ -34,16 +34,16 @@ const About = () => {
             <p>
               Chez Emma Pierre, nous croyons que chaque bijou raconte une histoire unique. Nous avons commencé
               notre
-              entreprise en tant que passionnés des pierres précieuses et de l'art de la bijouterie, et cette
+              entreprise en tant que passionnés des pierres précieuses et de l&apos;art de la bijouterie, et cette
               passion est restée
               ancrée dans chacune de nos créations. Nous croyons que les bijoux ne sont pas simplement des
-              accessoires, mais qu'ils
+              accessoires, mais qu&apos;ils
               ont le pouvoir de refléter la personnalité de celle qui les porte, de raconter une histoire ou
               de transmettre un
               message.
             </p>
             <p>
-              C'est pourquoi nous avons choisi de créer des bijoux qui inspirent la confiance en soi, la grâce
+              C&apos;est pourquoi nous avons choisi de créer des bijoux qui inspirent la confiance en soi, la grâce
               et la beauté. Nos
               bijoux sont conçus pour être portés fièrement, pour faire tourner les têtes et pour faire
               étinceler les yeux. Avec notre
@@ -59,7 +59,7 @@ const About = () => {
 
         <div className={styles.banniere}>
           <div className={styles.rectangle}>
-            <h1>L'atelier</h1>
+            <h1>L&apos;atelier</h1>
           </div>
         </div>
 
@@ -68,10 +68,10 @@ const About = () => {
           <div className={styles.text}>
             <h2>Notre atelier</h2>
             <p>
-              Notre atelier est le cœur de notre entreprise. En tant que gérante de la société, je travaille personnellement pour créer des bijoux qui captivent l'œil et l'imagination. Tout mon travail est réalisé à la main, depuis la sélection minutieuse des pierres jusqu'à la finition des bijoux.
+              Notre atelier est le cœur de notre entreprise. En tant que gérante de la société, je travaille personnellement pour créer des bijoux qui captivent l&apos;œil et l&apos;imagination. Tout mon travail est réalisé à la main, depuis la sélection minutieuse des pierres jusqu&apos;à la finition des bijoux.
             </p>
             <p>
-              Chez Emma Pierre, nous croyons que chaque bijou que nous créons est une œuvre d'art unique. Nous travaillons en étroite collaboration avec nos clients pour créer des bijoux sur mesure qui correspondent à leurs goûts et leur personnalité. Nous sommes convaincus que nos bijoux vous feront vous sentir confiant, élégant et spécial, quel que soit l'occasion.
+              Chez Emma Pierre, nous croyons que chaque bijou que nous créons est une œuvre d&apos;art unique. Nous travaillons en étroite collaboration avec nos clients pour créer des bijoux sur mesure qui correspondent à leurs goûts et leur personnalité. Nous sommes convaincus que nos bijoux vous feront vous sentir confiant, élégant et spécial, quel que soit l&apos;occasion.
             </p>
           </div>
           <div className={styles.imgContainer}>
@@ -80,17 +80,17 @@ const About = () => {
         </article>
         <aside className={styles.citation}>
           <p>
-            Les bijoux sont des œuvres d'art que l'on peut porter - ils doivent refléter la personnalité et l'élégance de celui ou celle qui les porte.
+            Les bijoux sont des œuvres d&apos;art que l&apos;on peut porter - ils doivent refléter la personnalité et l&apos;élégance de celui ou celle qui les porte.
           </p>
         </aside>
         <article className={`${styles.texteImage} ${styles.droite}`}>
           <div className={styles.text}>
             <h2>Votre satisfaction est notre priorité</h2>
             <p>
-              Chez Emma Pierre, votre satisfaction est notre priorité absolue. Nous comprenons que chaque client est unique, c'est pourquoi nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et vos préférences en matière de bijoux. Nous nous engageons à offrir un service client exceptionnel et à vous fournir des bijoux de qualité supérieure qui répondent à vos attentes.
+              Chez Emma Pierre, votre satisfaction est notre priorité absolue. Nous comprenons que chaque client est unique, c&apos;est pourquoi nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et vos préférences en matière de bijoux. Nous nous engageons à offrir un service client exceptionnel et à vous fournir des bijoux de qualité supérieure qui répondent à vos attentes.
             </p>
             <p>
-              Si, pour une raison quelconque, vous n'êtes pas entièrement satisfait de votre achat, nous ferons tout notre possible pour rectifier la situation. Nous croyons en la satisfaction de nos clients à 100%, et nous nous engageons à créer des bijoux qui vous feront vous sentir exceptionnel à chaque fois que vous les portez.
+              Si, pour une raison quelconque, vous n&apos;êtes pas entièrement satisfait de votre achat, nous ferons tout notre possible pour rectifier la situation. Nous croyons en la satisfaction de nos clients à 100%, et nous nous engageons à créer des bijoux qui vous feront vous sentir exceptionnel à chaque fois que vous les portez.
             </p>
           </div>
           <div className={styles.imgContainer}>

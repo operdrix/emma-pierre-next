@@ -15,7 +15,7 @@ export default function Home() {
       <main className={styles.mainPage}>
         <article className={styles.texteIntro}>
           <h1>EMMA PIERRE Création</h1>
-          <p>Bienvenue sur le site EMMA PIERRE, où l'art et la passion se rencontrent pour créer des pièces exceptionnelles qui transcendent le temps. Nous sommes ravis de vous présenter notre collection exquise de bijoux haut de gamme, minutieusement conçue avec les meilleurs matériaux et une attention particulière aux détails. Nous sommes convaincus que vous trouverez la pièce parfaite qui vous permettra de vous démarquer et de rayonner en toute occasion.</p>
+          <p>Bienvenue sur le site EMMA PIERRE, où l&apos;art et la passion se rencontrent pour créer des pièces exceptionnelles qui transcendent le temps. Nous sommes ravis de vous présenter notre collection exquise de bijoux haut de gamme, minutieusement conçue avec les meilleurs matériaux et une attention particulière aux détails. Nous sommes convaincus que vous trouverez la pièce parfaite qui vous permettra de vous démarquer et de rayonner en toute occasion.</p>
         </article>
 
         <div className={styles.container}>
@@ -42,7 +42,7 @@ export default function Home() {
         <article className={styles.texteIntro}>
           <div className={styles.texteIntro}>
             <h2>Nous concevons également des bijoux sur-mesure</h2>
-            <p>La créativité ne connaît pas de limites. Nous sommes fiers de concevoir des bijoux uniques et sur-mesure pour nos clients, en utilisant les meilleurs matériaux et en combinant notre savoir-faire avec leurs idées et préférences. Si vous cherchez à offrir un cadeau spécial à un être cher, ou si vous voulez vous faire plaisir en vous offrant un bijou unique, n'hésitez pas à nous contacter. Nous serons ravis de vous aider à créer quelque chose de beau et de précieux qui durera toute une vie.</p>
+            <p>La créativité ne connaît pas de limites. Nous sommes fiers de concevoir des bijoux uniques et sur-mesure pour nos clients, en utilisant les meilleurs matériaux et en combinant notre savoir-faire avec leurs idées et préférences. Si vous cherchez à offrir un cadeau spécial à un être cher, ou si vous voulez vous faire plaisir en vous offrant un bijou unique, n&apos;hésitez pas à nous contacter. Nous serons ravis de vous aider à créer quelque chose de beau et de précieux qui durera toute une vie.</p>
           </div>
         </article>
 

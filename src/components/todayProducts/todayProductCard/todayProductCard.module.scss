@@ -4,17 +4,22 @@
   width: 100%;
 
   @media (min-width: 640px) {
-    width: auto;
+    width: 100%;
+    max-width: $maxWidht;
   }
 
-  img {
+  .imgcontainer {
+    position: relative;
     height: 350px;
     width: 100%;
-    object-fit: cover;
 
     @media (min-width: 640px) {
       height: $height;
       max-width: $maxWidht;
+    }
+
+    img {
+      object-fit: cover;
     }
   }
 }

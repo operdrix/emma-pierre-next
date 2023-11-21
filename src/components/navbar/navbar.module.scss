@@ -89,8 +89,8 @@
       }
 
       img {
-        width: 40px;
-        padding: 0 0.5rem;
+        //width: 40px;
+        //padding: 0 0.5rem;
       }
     }
 
@@ -103,6 +103,16 @@
   height: $headerHeight;
 }
 
+.imgcontainer {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+  img {
+    position: relative !important;
+    object-fit: contain;
+  }
+}
 
 
 

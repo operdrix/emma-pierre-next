@@ -23,7 +23,7 @@ const BlogPost: FC<BlogPostProps> = ({ src, alt, href, index, title, content, da
 
       <div className={styles.imgContainer}>
         <Image src={src} alt={alt} fill={true} sizes='30vw' />
-        <Button color="bleu" href={href}>Lire l'article</Button>
+        <Button color="bleu" href={href}>Lire l&apos;article</Button>
       </div>
       <div className={styles.text}>
         <p className={styles.date}>{date}</p>

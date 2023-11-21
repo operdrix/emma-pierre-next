@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.colFooter}>
-        <h3>Besoin d'aide</h3>
+        <h3>Besoin d&apos;aide</h3>
         <ul>
           <Link className={styles.lienMenu} href="/mentions#mentions">
             <li>Mentions légales</li>

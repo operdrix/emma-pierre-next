@@ -7,7 +7,7 @@ const FeedInstagram = () => {
   return (
     <div className={styles.feedInstagram}>
       <div className={styles.logo_insta}>
-        <img src="./img/instagram-icon.svg" alt="Création de Bijoux" />
+        <Image src="./img/instagram-icon.svg" alt="Création de Bijoux" fill={true} sizes='30vw' />
       </div>
       <div className={styles.img_insta}>
         <div className={styles.imgContainer}>

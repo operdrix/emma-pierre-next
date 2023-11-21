@@ -57,8 +57,10 @@
 
 
   .logo_insta {
+    height: 200px;
+
     img {
-      height: 200px;
+      position: relative !important;
       filter: opacity(0.15);
     }
 
@@ -66,8 +68,10 @@
       position: absolute;
       left: -450px;
       z-index: 10;
+      height: 600px;
 
       img {
+        position: relative !important;
         height: 600px;
         filter: opacity(0.15);
       }
